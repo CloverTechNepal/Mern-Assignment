@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgb(167, 134, 245);
+}
+
+.right-nav{
+    display: flex;
+    gap: 3rem;
+    margin-right:5rem ;
+    list-style: none;
+    
+    
+}
+.right-nav li:hover{
+    color: red;
+    
+}
+.posts{
+    text-decoration: none;
+    
+}
+.right-nav li a{
+    text-decoration: none;
+}
+
+

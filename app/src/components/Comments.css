@@ -1,0 +1,98 @@
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(167, 134, 245);
+}
+
+.btn {
+  margin-left: 2rem;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #0a0000;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: rgb(19, 18, 18);
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: rgb(14, 13, 13);
+  border: none;
+}
+
+.comments-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #0f0f0f;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-button:hover {
+  background-color: #0e0d0d;
+}
+
+.pagination-button.active {
+  border: 1px solid #6200ee;
+  color: #6200ee;
+  font-weight: bold;
+}
+
+.pagination-ellipsis {
+  padding: 10px 15px;
+  cursor: default;
+}
+
+.pagination-button:disabled {
+  cursor: not-allowed;
+  color: #0c0c0c;
+}
