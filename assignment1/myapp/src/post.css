@@ -1,0 +1,32 @@
+.button{
+    margin-left: 1.21rem;
+    padding-top: 2rem;
+}
+
+.table{
+    margin-top: 1rem;
+    border-width: 2px;
+    border: 1px solid rgb(10, 3, 30);
+    border-collapse:collapse;
+
+}
+button{
+    background-color:black;
+    color: white;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.pagination .active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+}

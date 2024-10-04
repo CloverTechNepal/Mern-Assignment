@@ -1,0 +1,17 @@
+.button{
+    margin-left: 1.21rem;
+    padding-top: 2rem;
+}
+
+.table{
+    margin-top: 1rem;
+    width: 100vw;
+    border-width: 2px;
+    border: 1px solid rgb(10, 3, 30);
+    border-collapse:collapse;
+
+}
+button{
+    background-color:black;
+    color: white;
+}
