@@ -1,0 +1,28 @@
+.register-page{
+    background-color: rgba(12, 158, 255, 0.762);
+    border: none;
+    padding: 1.5rem 3.5rem 3rem 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.input-field{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    margin-top: 0.75rem;
+    background-color: rgba(0, 255, 179, 0.508);
+}
